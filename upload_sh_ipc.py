@@ -155,9 +155,9 @@ def subir_datos_a_alphacast_v2(
             onConflictUpdateDB=on_conflict_update,
             uploadIndex=upload_index
         )
-        print(f"✅ Datos subidos correctamente al dataset {dataset_id}.")
+        print(f" Datos subidos correctamente al dataset {dataset_id}.")
     except Exception as e:
-        print(f"❌ Error al subir datos al dataset {dataset_id}: {e}")
+        print(f" Error al subir datos al dataset {dataset_id}: {e}")
         print(f"  Detalles del error: {e}")
 
 # Ejemplo de uso:
